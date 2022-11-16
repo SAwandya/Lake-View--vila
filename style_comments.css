@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background: linear-gradient(to right,#136a8a,#267871);
+    
+}
+
+.comment{
+    background-color: rgb(255, 255, 255);
+    min-height: 400px;
+    width: 600px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    margin-top: 60px;
+}
+.name{
+    height: 50px;
+    width: 300px;
+}
+.input-group{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+.input-group input{
+   height: 100%;
+   width: 100%;
+   border: 1px solid #00b894;
+   outline: none;
+   padding: 10px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+  
+}
+.sub-btn{
+    width: 280px;
+    margin-top: 72px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: aqua;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+.sub-btn:hover{
+    box-shadow: 0 5px 10px;
+}
+.fa-solid{
+    font-size: 40px;
+    margin-left: 230px;
+    color: rgb(4, 168, 168);
+    
+}
+
+.input-group .text{
+    height: 130px;
+    width: 100%;
+    border: 1px solid #00b894;
+    outline: none;
+    padding: 10px;
+}
+.input-group label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.comment-container h1{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+/*---------sessions -------------*/
+.alert{
+    background-color: #eb6565;
+    height: 60px;
+    padding: 20px;
+    padding-left: 40px;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+.success{
+    background-color: #7eeb65;
+    height: 60px;
+    padding: 20px;
+    padding-left: 40px;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+@media(max-width:700px){
+    
+    .comment{
+        width: 400px;
+        margin-left: 43px;
+        margin-bottom: 40px;
+    
+    }
+    .fa-solid{
+        margin-left: 30px;
+    }
+}
+
+
+
